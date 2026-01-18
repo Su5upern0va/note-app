@@ -1,5 +1,5 @@
 <div>
-    <div class="mb-6 flex jutify-between items-center">
+    <div class="mb-6 flex justify-between items-center">
         <h2 class="text-2xl font-bold text-gray-800">Alle Notizen</h2>
         <a href="{{ route('notes.create') }}"
            class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
