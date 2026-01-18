@@ -35,9 +35,11 @@
                            class="bg-gray-500 hover:bg-gray-600 text-white text-sm py-1 px-3 rounded">
                             Bearbeiten
                         </a>
-                        <button wire:click="delete({{ $note->id }})"
-                                wire:confirm="Möchtest du die Notiz wirklich löschen?">
-                                class="bg-red-500 hover:bg-red-600 text-white text-sm py-1 px-3 rounded"
+                        <button
+                            wire:click="delete({{ $note->id }})"
+                            wire:confirm="Möchtest du die Notiz wirklich löschen?"
+                            class="bg-red-500 hover:bg-red-600 text-white text-sm py-1 px-3 rounded">
+
                             Löschen
                         </button>
                     </div>
